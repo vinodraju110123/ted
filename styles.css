@@ -475,6 +475,317 @@ h2 {
     height: 100%;
 }
 
+.ai-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+.ai-header {
+    display: flex;
+    padding: 10px;
+}
+
+.ai-title {
+    width: 50%;
+}
+.ai-title >h1{
+    font-size: 6.5rem;
+    margin: 0;
+    color: #000;
+}
+
+.ai-subtitle {
+    width: 50%;
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #666;
+}
+
+.ai-browse-link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #101010;
+    text-decoration: none;
+}
+
+.ai-browse-link:hover {
+    text-decoration: underline;
+}
+
+/* Content Layout */
+.ai-content {
+    padding-top: 20px;
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.ai-main-article {
+    width: 50%;
+}
+
+.ai-main-image {
+    width: 100%;
+    /* border-radius: 8px; */
+}
+
+.ai-main-details {
+    margin-top: 10px;
+}
+
+.ai-main-title {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: #000;
+}
+
+.ai-main-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.ai-main-author {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* Sidebar Articles */
+.ai-side-articles {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 15px;
+    width: 50%;
+}
+
+.ai-side-article {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Video Grid Container */
+
+
+/* Video Card */
+.video-card1 {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 50%;
+}
+
+.video-card1 h3 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: #222;
+}
+
+.video-card1 .meta {
+    font-size: 14px;
+    color: gray;
+}
+
+.thumbnail1 {
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 8px; */
+}
+
+.thumbnail1 img {
+    width: 100%;
+    /* border-radius: 8px; */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.thumbnail1:hover img {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ai-content {
+        grid-template-columns: 1fr;
+    }
+
+    .ai-side-article {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ai-side-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Trending TEDx Ideas Section Styling */
+.trending-tedx-section {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.trending-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Ideas Grid Container */
+.ideas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 900px; /* Adjust this to fit 2 columns */
+    margin: 0 auto;
+}
+
+/* Trending Card Styling */
+.trending-card {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+.trending-card .card-number {
+    font-size: 50px;
+    /* font-weight: bold; */
+    color: #0f0f0f;
+    margin-right: 20px;
+}
+
+.trending-card .card-content {
+    flex: 1;
+}
+
+.trending-card .card-tag {
+    font-size: 14px;
+    color: #cb2727;
+    margin-bottom: 10px;
+}
+
+.trending-card .card-headline {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1d1c1c;
+    margin-bottom: 10px;
+}
+
+.trending-card .card-details {
+    font-size: 14px;
+    color: #888;
+}
+
+
+
+/* Climate Action Section Styling */
+.climate-action-section {
+   
+    margin: 0 auto;
+    padding: 20px;
+    /* text-align: center; */
+    display: flex;
+}
+.left{
+    width: 70%;
+}
+.ads{
+    width: 30%;
+    color: #000;
+}
+.ads > h3{
+    color: #484343;
+}
+.climate-action-title {
+    font-size: 18px;
+    /* font-weight: bold; */
+    margin-bottom: 20px;
+    color: #000000;
+}
+.climate-action-title1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self:center;
+}
+
+/* Browse Link Styling */
+.browse-sustainability-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.browse-sustainability-link:hover {
+    background-color: #c0392b;
+}
+
+/* Climate Card Styling */
+.climate-card {
+    display: flex;
+    /* align-items: center; */
+    /* background-color: #f9f9f9; */
+    border-bottom: 1px solid #ddd;
+    /* border-radius: 8px; */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.climate-card-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.climate-card .climate-tag {
+    font-size: 12px;
+    font-weight: bold;
+    color: #c00;
+    text-transform: uppercase;
+    /* margin-bottom: 5px; */
+}
+
+.climate-card .climate-card-title {
+    font-size: 28px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: #222;
+}
+
+.climate-card .climate-meta {
+    font-size: 14px;
+    color: #888;
+}
+
+.climate-card .climate-card-image {
+    width: 50%; /* Adjust as needed */
+    /* border-radius: 8px; */
+    object-fit: cover; /* Ensures the image fits nicely */
+}
+
+
 .section-4{
     width: 1536px;
     height: 478px;
